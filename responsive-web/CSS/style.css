@@ -37,7 +37,7 @@ img {
 }
 
 main.text-inputs.container.valign-wrapper {
-    margin-top: 10%;
+    margin-top: -3%;
 }
 
 button.btn.waves-effect.waves-light.center {
@@ -45,8 +45,7 @@ button.btn.waves-effect.waves-light.center {
     margin-left: 15%;
 }
 
-h4 {
-    margin-top: 2%;
+h4.center {
     margin-bottom: auto;
 }
 
@@ -121,4 +120,16 @@ main#menu {
 }
 #qr {
     font-size: 100%;
+}
+
+img.backg{
+    position: relative;
+    margin-top: -3%;
+    width: 120%;
+    right: 3%;
+}
+
+div.nav-wrapper.transparent {
+    background-color: transparent;
+    
 }
