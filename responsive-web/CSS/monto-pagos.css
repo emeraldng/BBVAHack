@@ -1,0 +1,44 @@
+.nav-wrapper {
+    background-color: white;
+}
+
+#logo {
+    width:75%;
+    /*margin-top: -11.3%;*/
+}
+
+.wrapper2 {
+    height:100%;
+    background-color: #EBFAFD;
+    /* margin: 0; 
+    padding: 0; */
+    
+   
+}
+
+.container2 {
+    height:60vh;
+    background-color: #EBFAFD;
+    /* text-align: center;
+    display: block;  
+    position: relative;
+    margin: 0; 
+    padding: 0; */
+}
+
+
+.container31 {
+    /* height:100vh; */
+    background-color: white;
+    /* text-align: center;
+    display: block;  
+    position: relative;
+    margin: 0; 
+    padding: 0; */
+}
+
+#logoqr {
+    width: 70%;
+    height: 70%;
+    
+}
