@@ -94,3 +94,16 @@ span.loan-promotion i,
 span.loan-promotion span {
     color: #80C517;
 }
+
+.margin-icons {
+    margin-right: 4%;
+}
+
+button.btn.waves-effect.waves-light.col.s12.center {
+    margin-top: 2%;
+    font-size: 90%;
+}
+
+main.container {
+    margin-left: -1.5%;
+}
