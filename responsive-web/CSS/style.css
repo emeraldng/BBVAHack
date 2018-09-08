@@ -140,7 +140,6 @@ img.backg{
 
 div.nav-wrapper.transparent {
     background-color: transparent;
-    
 }
 
 button.btn i {
@@ -159,13 +158,13 @@ input.validate.code.center {
     margin-left: 53.3%;
 }
 
-::placeholder {
+/*::placeholder {
     color:#054175;
 }
 :-ms-input-placeholder {
     color:#054175;
 }
-
+*/
 button.btn.waves-effect.waves-light.col.s10.center#confirm-payment {
     background-color: #054175;
     margin-left: 33.3%;
@@ -175,7 +174,7 @@ p.center {
     margin-top: -10%;
 }
 
-i.far.fa-edit.usable {
+/*i.far.fa-edit.usable {
     margin-left: 25%;
     color:
-}
+}*/
