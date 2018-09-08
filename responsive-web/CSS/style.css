@@ -1,18 +1,18 @@
 @font-face {
     font-family: 'BentonSansBBVA-Bold';
-    src: url('../Font/bentonSansBBVA-Bold.woff2') format('woff2'); 
+    src: url('../Font/BentonSansBBVA-Bold.woff2') format('woff2'); 
   }
 @font-face {
     font-family: 'BentonSansBBVA-Light';
-    src: url('../Font/bentonSansBBVA-Light.woff2') format('woff2');
+    src: url('../Font/BentonSansBBVA-Light.woff2') format('woff2');
 }
 @font-face {
     font-family: 'BentonSansBBVA-Book';
-    src: url('../Font/bentonSansBBVA-Book.woff2') format('woff2');
+    src: url('../Font/BentonSansBBVA-Book.woff2') format('woff2');
 }
 @font-face {
     font-family: 'BentonSansBBVA-Medium';
-    src: url('../Font/bentonSansBBVA-Medium.woff2') format('woff2'); 
+    src: url('../Font/BentonSansBBVA-Medium.woff2') format('woff2'); 
 }
 body.first-view {
     font-family: 'BentonSansBBVA-Light';
@@ -116,9 +116,12 @@ main#menu {
 
 #available-loans {
     background-color: #F58400;
+    border-color: #F58400;
 }
 #cardless-withdrawal {
     background-color: #347201;
+    border-color: #347201;
+
 }
 #consult {
     font-size: 85%;
