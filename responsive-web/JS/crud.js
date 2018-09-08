@@ -12,7 +12,7 @@ const QRInfoToStringlify = () => {
 };
 // QRInfoToStringlify();
 
-// Funcion para selecciónar que tipo de pagoment
+// Funcion para selecciónar que tipo de pago
 const selectPaymentType = () => {
   const creditCard = getElementById('credit-card-id');
   const debitCard = getElementById('debit-card-id');
@@ -25,5 +25,7 @@ const selectPaymentType = () => {
   } else if (creditCard === null && debitCard === null && bbvaPoints !== null) {
     paymentType = 'PAGO for puntos BBVA';
   }
-    return paymentType;
+  return paymentType;
 };
+
+// 
