@@ -106,7 +106,7 @@ button.btn.waves-effect.waves-light.col.s12.center {
     text-transform: none;
 }
 
-main.container {
+main#menu {
     margin-left: -1.5%;
 }
 
@@ -121,5 +121,4 @@ main.container {
 }
 #qr {
     font-size: 100%;
-    margin-top: 2%;
 }
