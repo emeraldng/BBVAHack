@@ -82,7 +82,7 @@ i.material-icons.menu {
 
 span.loan-promotion.col.s8.center{
     border: 1px #80C517 solid;
-    border-radius: 8%;
+    border-radius: 15px;
     padding: 2%;
     font-family: 'BentonSansBBVA-Book';
     margin-left: 15%;
@@ -103,6 +103,11 @@ button.btn.waves-effect.waves-light.col.s12.center {
     font-size: 70%;
     background-color: #1D6BA7;
     text-transform: none;
+    -webkit-box-shadow: 3px 3px 6px gray;
+    box-shadow: 3px 3px 6px gray;
+    border: 1px #1d6ba7 solid ;
+    border-radius: 15px;
+
 }
 
 main#menu {
@@ -124,9 +129,10 @@ main#menu {
 
 img.backg{
     position: relative;
-    margin-top: -3%;
+    margin-top: 0%;
     width: 120%;
     right: 3%;
+    filter: opacity(85%);
 }
 
 div.nav-wrapper.transparent {
