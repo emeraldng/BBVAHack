@@ -87,7 +87,7 @@ span.loan-promotion.col.s8.center{
     padding: 2%;
     font-family: 'BentonSansBBVA-Book';
     margin-left: 15%;
-    margin-top: 2%;
+    margin-top: 5%;
 }
 
 span.loan-promotion i,
@@ -100,10 +100,26 @@ span.loan-promotion span {
 }
 
 button.btn.waves-effect.waves-light.col.s12.center {
-    margin-top: 2%;
-    font-size: 90%;
+    margin-top: 15%;
+    font-size: 70%;
+    background-color: #1D6BA7;
+    text-transform: none;
 }
 
 main.container {
     margin-left: -1.5%;
+}
+
+#available-loans {
+    background-color: #F58400;
+}
+#cardless-withdrawal {
+    background-color: #347201;
+}
+#consult {
+    font-size: 85%;
+}
+#qr {
+    font-size: 100%;
+    margin-top: 2%;
 }
