@@ -28,5 +28,4 @@ const selectPaymentType = () => {
   return paymentType;
 };
 
-console.log('hola');
 
