@@ -14,7 +14,7 @@
     font-family: 'BentonSansBBVA-Medium';
     src: url('../Font/BentonSansBBVA-Medium.woff2') format('woff2'); 
 }
-body.first-view {
+body.white-bg {
     font-family: 'BentonSansBBVA-Light';
     color: black;
     background-color: white;
@@ -31,7 +31,7 @@ nav {
     box-shadow: none;
     background-color: white;
 }
-img {
+img.logo {
     width: 70%;
     /*margin-top: -11.3%;*/
 }
@@ -145,4 +145,37 @@ div.nav-wrapper.transparent {
 
 button.btn i {
     margin-left: -1%;
+}
+
+div.row.title {
+    background-color: #054175;
+    color: white;
+}
+
+input.validate.code.center {
+    border: 0.5px solid grey;
+    font-size: 200%;
+    margin-top: -10%;
+    margin-left: 53.3%;
+}
+
+::placeholder {
+    color:#054175;
+}
+:-ms-input-placeholder {
+    color:#054175;
+}
+
+button.btn.waves-effect.waves-light.col.s10.center#confirm-payment {
+    background-color: #054175;
+    margin-left: 33.3%;
+}
+
+p.center {
+    margin-top: -10%;
+}
+
+i.far.fa-edit.usable {
+    margin-left: 25%;
+    color:
 }
