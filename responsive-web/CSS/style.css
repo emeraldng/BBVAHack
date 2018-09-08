@@ -94,20 +94,19 @@ span.loan-promotion span {
     color: #80C517;
 }
 
-.margin-icons {
-    margin-right: 4%;
-}
-
 button.btn.waves-effect.waves-light.col.s12.center {
     margin-top: 15%;
-    font-size: 70%;
     background-color: #1D6BA7;
     text-transform: none;
+    font-size: 120%;
     -webkit-box-shadow: 3px 3px 6px gray;
     box-shadow: 3px 3px 6px gray;
     border: 1px #1d6ba7 solid ;
     border-radius: 15px;
-
+    letter-spacing: -0.5px;
+    height: 55px;
+    line-height: 80%;
+    text-align:right;
 }
 
 main#menu {
@@ -121,13 +120,14 @@ main#menu {
 #cardless-withdrawal {
     background-color: #347201;
     border-color: #347201;
-
 }
 #consult {
-    font-size: 85%;
+    font-size: 110%;
 }
 #qr {
-    font-size: 100%;
+    font-size: 120%;
+    text-align: center;
+    line-height: 120%;
 }
 
 img.backg{
@@ -141,4 +141,8 @@ img.backg{
 div.nav-wrapper.transparent {
     background-color: transparent;
     
+}
+
+button.btn i {
+    margin-left: -1%;
 }
