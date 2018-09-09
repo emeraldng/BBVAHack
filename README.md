@@ -3,7 +3,7 @@
 
 ###  Un poco de historia.
 
-Los códigos QR fueron creados **en 1994 por Denso Wave, subsidiaria de Toyota**, y su nombre viene del inglés **quick response**, o lo que es lo mismo, respuesta rápida, ya que el objetivo de sus creadores era inventar un código que se leyese de manera rápida. Los códigos QR son muy populares en Japón, de hecho, son el código bidimensional más popular en el país nipón.
+Los códigos QR fueron creados **en 1994 por Denso Wave, subsidiaria de Toyota**, y su nombre viene del inglés **quick response**, o  respuesta rápida, ya que el objetivo de sus creadores era inventar un código que se leyese de manera rápida. Los códigos QR son muy populares en Japón, de hecho, son el código bidimensional más popular en el país nipón.
 
 Inicialmente, fueron usados para registrar repuestos en el área de fabricación de vehículos, pero poco a poco, y más aún con la aparición y la popularización de los Smartphones y tablets, se han ido extendiendo más.
 
@@ -27,15 +27,16 @@ Las siglas QR provienen de **“Quick Response”**, y significan literalmente �
 
 ## Los pagos móviles crecen como vía de inclusión social en Latam
 
- > Todos los días,  millones de jóvenes  se están sumando al sistema bancario, **“y ninguno de ellos está pensando en tener una tarjeta de crédito en el bolsillo, la mayoría busca tenerlo todo en el teléfono de forma virtual”**, dice a Forbes México Marcelo Fondacaro, director comercial de VeriTran, una firma argentina líder en soluciones de banca digital.
+ > Todos los días,  millones de jóvenes  se están sumando al sistema bancario, **“ la mayoría busca tenerlo todo en el teléfono de forma virtual”**, 
+ 
+ dice a Forbes México Marcelo Fondacaro, director comercial de VeriTran, una firma argentina líder en soluciones de banca digital.
   
  >> **Las transacciones digitales basadas en wallets o apps de teléfonos inteligentes adquieren tracción en América Latina y permiten que millones de usuarios, antes marginados de esos servicios, se sumen a la banca.**
 
- >> *“Si pensamos sólo en aquellos que tienen tarjeta de crédito, que  son el 30% de la población, lo que hacemos es ofrecer un medio de pago para una cierta clase de gente, pero cuando los gobiernos empiezan a bajar en la pirámide y dan servicios a otro tipo de personas, por ejemplo, **métodos de pago digital, se da una inclusión social**.”*
+ >> *“Si pensamos sólo en aquellos que tienen tarjeta , lo que hacemos es ofrecer un medio de pago para una cierta clase de gente, pero cuando los gobiernos empiezan a bajar en la pirámide y dan servicios a otro tipo de personas, por ejemplo, **métodos de pago digital, se da una inclusión social**.”*
 
  ### Ese proceso de adopción, si bien va andando, aún tiene mucho camino por recorrer.
 
- >> “Hay estudios que reportan **un crecimiento del 30% anual**, si bien es más lento que otros ámbitos, como la banca digital, especialmente la **banca móvil**, es muy interesante porque estamos pasando del mundo físico al virtual, es decir, pagar, en vez de pagar con efectivo o con tarjeta, pagamos con tarjetas virtuales, pagos móviles o wallets”, señala Fondacaro.
 
  >>  _“Lo primero es la inclusión, los gobiernos deben emprender acciones que sean inclusivas, **tienen que sumar a las personas a los procesos de forma digital”_.
  
@@ -51,33 +52,43 @@ dice Fondacaro.
 
 # Sólo 3 de cada 10 negocios en México aceptan pago con tarjeta
 
-## El sector enfocado al comercio registra la mayor cantidad de empresas que aceptan pagos con tarjeta con 51.5%.
-
-Pese a que las empresas mexicanas registran un alto porcentaje de inclusión en el sistema financiero, menos de la mitad acepta pagos con tarjeta, reveló la Encuesta Nacional de Financiamiento de Empresas (ENAFIN) 2015.
-
 
 El estudio elaborado por el Instituto Nacional de Estadística y Geografía (INEGI), precisó que 32.5% de las unidades económicas mexicanas cuentan con un sistema de cobro con tarjeta.
 
 
  [fuente de consulta Forbes agosto 22, 2017]()<https://www.forbes.com.mx/solo-3-de-cada-10-negocios-en-mexico-aceptan-pago-con-tarjeta/>
 
- # Bancomer ofrece una Solucion 
+ # Bancomer ofrece una Solución 
+
+
+>> “ La venta promedio con tarjeta de pago es de 30 por ciento a 80 por ciento más alta que la venta promedio en efectivo”, detalla MasterCard.
+
+Según las cifras más recientes del Banco de México, en el país hay 23.4 millones de tarjetas de crédito emitidas para personas físicas y son uno de los medios de pago preferidos por los consumidores.
+
+
+Fuente de consulta El Financiero 07/02/2017
+<http://www.elfinanciero.com.mx/pyme/evita-que-tu-pyme-pierda-clientes-acepta-pagos-con-tarjeta>
 
 Tomando en cuenta la información anterior hemos creado una alternativa para las microempresas que aún no estan asociadas a la Banca.
 
 De esa gran área de oportunidad que se ha detectado ha nacido _B Pay_ ,quien brindara la oportunidad de recibir pagos con tarjeta ,medianta el uso de QR ,permitiendo un proceso agil tanto para el micronegocio como para el cliente.
 
-Ademas de que el micronegocio tendra la oportunidad de crecer tanto en nivel tecnologico,como a nivel económico.
+Ademas de que el micronegocio tendrá la oportunidad de crecer tanto en nivel tecnologico,como a nivel económico.
 
-B Pay es una aplicacion web,pensada en los usuarios que manejan telefonos de baja gama,en los cuales su telefono no soporta la aplicacion nativa pero se ha pensado en la inclusion permitiendoles acceder desde cual buscador web.
+El aceptar el pago con tarjetas de crédito y débito en tu negocio puede significar un alza en las ventas y actualmente existen opciones tecnológicas que te permiten dar este servicio sin estar obligado a ventas mínimas.
 
-Los negocios que  implementaran esta forma de pago contaran con este logo.
+
+![tienda](imagenes/tienda.jpg)
+
+### B Pay
+Es una aplicacion web,pensada en los usuarios que manejan telefonos de baja gama,en los cuales su telefono no soporta la aplicacion nativa pero se ha pensado en la inclusion permitiendoles acceder desde cual buscador web.
+
+### Los negocios que  implementaran esta forma de pago contaran con este logo.
 
 
 ![logo](imagenes/logo.png)
 
-
-
+![tiendita](imagenes/tiendita.jpg)
 
 
 
@@ -113,6 +124,17 @@ _La innovación se encuentra fuertemente ligada a este proceso de transformació
 
 
  <https://www.bbva.com/es/internet-banca-mexico/>
+
+
+ - Todo este proyecto fue realizado por :
+ - Yocelin Garcia Romero encargada del aréa :node.js y express.
+
+ - Florencia Silva Olvera encargada del aréa:Maquetado de vistas.
+
+ - Diana Esmeralda  Nava Garcia encargada de :Firebase y maquetado de vistas
+ - Mirian Ivonne Garcia Hernandez encargada de: codigo QR
+ - Jazmin Tania Reyes Guzman encargada de el aréa de :User Experience.
+ - Mike Nieva encargado de el areá de :Scrum Master
 
 
  
