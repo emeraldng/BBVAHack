@@ -37,9 +37,7 @@ const appRouter = function (app) {
     }
 
   });
- // app.use("rutashtml", express.static('responsive-web'));
- app.get('/routes', (req, resp) =>{
-   res.render('../responsive-web/public/login.html');
- })
+  app.use('/static', express.static(__dirname + '../responsive-web/public'));
+
 };
 module.exports = appRouter;
