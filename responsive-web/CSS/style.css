@@ -165,9 +165,13 @@ input.validate.code.center {
     color:#054175;
 }
 */
-button.btn.waves-effect.waves-light.col.s10.center#confirm-payment {
+button.btn.waves-effect.waves-light.col.s10.center#confirm-payment, #to-menu {
     background-color: #054175;
     margin-left: 33.3%;
+}
+
+#to-menu {
+    background-color: #054175;
 }
 
 p.center {
@@ -178,3 +182,15 @@ p.center {
     margin-left: 25%;
     color:
 }*/
+main.container.valign-wrapper.amount {
+    margin-top: 50%;
+}
+
+input.validate.input {
+    color: white;
+}
+#confirm-amount {
+    background-color: white;
+    color: #054175;
+    left: 17%;
+}

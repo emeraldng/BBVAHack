@@ -34,40 +34,37 @@
         <li><a href="sass.html">Sass</a></li>
     </ul>
 
-    <div class="row center title">
-        <h5 class="col s12">Pago a cuentas QR Payment</h5>
-    </div>
-    <!-- Data Table-->
-    <table class="responsive-table center">
-        <thead>
-            <tr>
-                <th>Comercio</th>
-                <th>Importe</th>
-                <th>Fecha</th>
-                <th>Folio</th>
-                <th>E-mail</th>
-            </tr>
-        </thead>
+    <main>
+        <div class="row center title">
+            <h5 class="col s12">Pago a cuentas QR Payment</h5>
+        </div>
+        <!-- Data Table-->
+        <table class="responsive-table center">
+            <thead>
+                <tr>
+                    <th>Comercio</th>
+                    <th>Importe</th>
+                    <th>Fecha</th>
+                    <th>Folio</th>
+                    <th>E-mail</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td id='comercio'></td>
+                    <td id='importe'></td>
+                    <td id='fecha'></td>
+                    <td id='folio'></td>
+                    <td id='e-mail'></td>
+                </tr>
+            </tbody>
+        </table>
 
-        <tbody>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-        </tbody>
-    </table>
+        <button class="btn offset-s6" id="to-menu" type="submit">  Menu  
+        </button>
+    </main>
 
-    <div class="row">
-        <form class="col s12">
-            <div class="row">
-            </div>
-        </form>
-    </div>
-
-    <button class="btn waves-effect waves-light col s12 center" id="to-menu" type="submit" name="action-menu">Menu
-    </button>
-
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
     <script src="JS/materializeInitializer.js"></script>
     <script src="JS/navigation.js"></script>
