@@ -3,6 +3,8 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const routes = require('./routes/routes.js');
 const app = express();
+const path = require('path');
+
 app.use(express.static());
 app.set("view engine", "jade");
 
