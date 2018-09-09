@@ -134,6 +134,6 @@ _La innovación se encuentra fuertemente ligada a este proceso de transformació
  
  - Mirian Ivonne Garcia Hernandez encargada de: Código QR y Maquetado de Vista
  
- - Jazmin Tania Reyes Guzman encargada de el area de: User Experience.
+ - Jazmin Tania Reyes Guzman encargada de: User Experience.
  
- - Mike Nieva encargado de el area de: Scrum Master
+ - Mike Nieva encargado de: Scrum Master
