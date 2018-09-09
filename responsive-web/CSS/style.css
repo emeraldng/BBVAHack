@@ -68,6 +68,7 @@ div.row a.forgot-password {
     margin-top: -12%;
 }
 
+
 a {
     color:white;
     font-size: 80%;
@@ -178,3 +179,10 @@ p.center {
     margin-left: 25%;
     color:
 }*/
+
+.input-field col s12 amount-input center-aling {
+    margin-top: 150px;
+    margin-bottom: 150px;
+    /* margin-right: 150px;
+    margin-left: 80px; */
+}
