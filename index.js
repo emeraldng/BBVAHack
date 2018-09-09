@@ -9,7 +9,8 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 routes(app);
+const port = process.env.PORT || 3000;
 // Indoca en qué puerto correra la app y la inicia
-const server = app.listen(3000, () => {
+const server = app.listen(port, () => {
   console.log('app running on port.', server.address().port);
 });
