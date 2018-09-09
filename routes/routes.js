@@ -1,4 +1,5 @@
 const faker = require('faker');
+const path = require('path');
 
 const appRouter = function (app) {
   app.get('/', (req, res) => {
@@ -6,7 +7,7 @@ const appRouter = function (app) {
   });
 
   app.get('/user', (req, res) => {
-    let data = ({
+    const data = ({
       firstName: faker.name.firstName(),
       lastName: faker.name.lastName(),
       username: faker.internet.userName(),
@@ -16,8 +17,8 @@ const appRouter = function (app) {
   });
 
   app.get('/users/:num', (req, res) => {
-    let users = [];
-    let num = req.params.num;
+    const users = [];
+    const num = req.params.num;
 
     if (isFinite(num) && num > 0) {
       for (i = 0; i <= num - 1; i++) {
@@ -36,5 +37,7 @@ const appRouter = function (app) {
     }
 
   });
+  app.use('/static', express.static(__dirname + '../responsive-web/public'));
+
 };
 module.exports = appRouter;

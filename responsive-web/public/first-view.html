@@ -11,7 +11,7 @@
      <!-- Materialize CDN -->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
      <!-- Stylesheet -->
-     <link rel="stylesheet" href="CSS/style.css">
+     <link rel="stylesheet" href="../CSS/style.css">
     <title>Menu Principal | BBVA Bancomer</title>
 </head>
 <body class="white-bg"> 
@@ -48,7 +48,7 @@
             </button> 
             <button class="btn waves-effect waves-light col s12 center" id="pay" type="button" name="action"><i class="far fa-credit-card left"></i>Pagar
             </button> 
-            <button class="btn waves-effect waves-light col s12 center" id="qr" type="button" name="action"><i class="fas fa-qrcode left"></i>Pagar con QR
+            <button class="btn waves-effect waves-light col s12 center" id="qr" type="button" name="action" onClick="reply_click(this.id)" ><i class="fas fa-qrcode left"></i>Pagar con QR
             </button> 
         </div>
         <div class="col s6">
@@ -65,7 +65,13 @@
 </main>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
-<script src="JS/materializeInitializer.js"></script>
-<script src="JS/navigation.js"></script>
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+<script src="../JS/authentications.js"></script>
+<script src="../JS/prueba-crud.js"></script>
+<script src="../JS/materializeInitializer.js"></script>
+<script src="../JS/navigation.js"></script>
 </body>
 </html>

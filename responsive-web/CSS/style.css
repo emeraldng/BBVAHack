@@ -68,6 +68,7 @@ div.row a.forgot-password {
     margin-top: -12%;
 }
 
+
 a {
     color:white;
     font-size: 80%;
@@ -165,9 +166,14 @@ input.validate.code.center {
     color:#054175;
 }
 */
-button.btn.waves-effect.waves-light.col.s10.center#confirm-payment {
+button.btn.waves-effect.waves-light.col.s10.center#confirm-payment, #to-menu {
     background-color: #054175;
     margin-left: 33.3%;
+}
+
+#to-menu {
+    margin-top: 20%;
+    background-color: #054175;
 }
 
 p.center {
