@@ -15,4 +15,3 @@ const server = app.listen(3000, () => {
   console.log('app running on port.', server.address().port);
 });
 
-axios.get('https://apis.bbva.com/qrpay-sbx/v1');
