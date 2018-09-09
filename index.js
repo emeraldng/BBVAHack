@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.get('/', (req, res) => {
   res.send('Hola');
 });
-const port = process.env.PORT || 38493;
+const port = process.env.PORT || 3000;
 // Indoca en qué puerto correra la app y la inicia
 const server = app.listen(port, () => {
   console.log('app running on port.', server.address().port);
