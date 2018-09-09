@@ -38,8 +38,8 @@ const appRouter = function (app) {
 
   });
  // app.use("rutashtml", express.static('responsive-web'));
- app.get('/', (req, resp) =>{
-   res.render('../public/login');
+ app.get('/routes', (req, resp) =>{
+   res.render('../responsive-web/public/login.html');
  })
 };
 module.exports = appRouter;
