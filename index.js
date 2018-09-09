@@ -1,5 +1,6 @@
 // Llamado a las instancias que se ocuparán-> Llamado a módulos
 const express = require('express');
+const axios = require('axios'); // agrego Mir
 const bodyParser = require('body-parser');
 const routes = require('./routes/routes.js');
 
@@ -13,3 +14,4 @@ routes(app);
 const server = app.listen(3000, () => {
   console.log('app running on port.', server.address().port);
 });
+

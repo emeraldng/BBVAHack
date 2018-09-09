@@ -1,0 +1,197 @@
+@font-face {
+    font-family: 'BentonSansBBVA-Bold';
+    src: url('../Font/BentonSansBBVA-Bold.woff2') format('woff2'); 
+  }
+@font-face {
+    font-family: 'BentonSansBBVA-Light';
+    src: url('../Font/BentonSansBBVA-Light.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'BentonSansBBVA-Book';
+    src: url('../Font/BentonSansBBVA-Book.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'BentonSansBBVA-Medium';
+    src: url('../Font/BentonSansBBVA-Medium.woff2') format('woff2'); 
+}
+body.white-bg {
+    font-family: 'BentonSansBBVA-Light';
+    color: black;
+    background-color: white;
+}
+
+body {
+    background-color: #054175;
+    font-family: 'BentonSansBBVA-Light';
+    color: white;
+}
+
+nav {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background-color: white;
+}
+img.logo {
+    width: 70%;
+    /*margin-top: -11.3%;*/
+}
+
+main.text-inputs.container.valign-wrapper {
+    margin-top: -3%;
+}
+
+button.btn.waves-effect.waves-light.center {
+    background-color: #009EE5;
+    margin-left: 15%;
+}
+
+h4.center {
+    margin-bottom: auto;
+}
+
+input.validate.user.center {
+    font-size: 220%;
+    border: none;
+    margin-left: 8%;
+    font-family: 'BentonSansBBVA-Bold';
+    margin-top: -5%;
+}
+
+input#password.validate.center {
+    margin-left: 10%;
+    margin-top: -5%;
+}
+
+div.row a.forgot-password {
+    color:white;
+    font-size: 80%;
+    margin-top: -12%;
+}
+
+a {
+    color:white;
+    font-size: 80%;
+    padding: 2%;
+}
+
+i.material-icons.menu {
+    color: #004B93;
+    margin-top: -25%;
+    font-size: 250%;
+}
+
+span.loan-promotion.col.s8.center{
+    border: 1px #80C517 solid;
+    border-radius: 15px;
+    padding: 2%;
+    font-family: 'BentonSansBBVA-Book';
+    margin-left: 15%;
+    margin-top: 5%;
+}
+
+span.loan-promotion i,
+span.loan-promotion span {
+    color: #80C517;
+}
+
+button.btn.waves-effect.waves-light.col.s12.center {
+    margin-top: 15%;
+    background-color: #1D6BA7;
+    text-transform: none;
+    font-size: 120%;
+    -webkit-box-shadow: 3px 3px 6px gray;
+    box-shadow: 3px 3px 6px gray;
+    border: 1px #1d6ba7 solid ;
+    border-radius: 15px;
+    letter-spacing: -0.5px;
+    height: 55px;
+    line-height: 80%;
+    text-align:right;
+}
+
+main#menu {
+    margin-left: -1.5%;
+}
+
+#available-loans {
+    background-color: #F58400;
+    border-color: #F58400;
+}
+#cardless-withdrawal {
+    background-color: #347201;
+    border-color: #347201;
+}
+#consult {
+    font-size: 110%;
+}
+#qr {
+    font-size: 120%;
+    text-align: center;
+    line-height: 120%;
+}
+
+img.backg{
+    position: relative;
+    margin-top: 0%;
+    width: 120%;
+    right: 3%;
+    filter: opacity(85%);
+}
+
+div.nav-wrapper.transparent {
+    background-color: transparent;
+}
+
+button.btn i {
+    margin-left: -1%;
+}
+
+div.row.title {
+    background-color: #054175;
+    color: white;
+}
+
+input.validate.code.center {
+    border: 0.5px solid grey;
+    font-size: 200%;
+    margin-top: -10%;
+    margin-left: 53.3%;
+}
+
+/*::placeholder {
+    color:#054175;
+}
+:-ms-input-placeholder {
+    color:#054175;
+}
+*/
+button.btn.waves-effect.waves-light.col.s10.center#confirm-payment, #to-menu {
+    background-color: #054175;
+    margin-left: 33.3%;
+}
+
+#to-menu {
+    margin-top: 20%;
+    background-color: #054175;
+}
+
+p.center {
+    margin-top: -10%;
+}
+
+/*i.far.fa-edit.usable {
+    margin-left: 25%;
+    color:
+}*/
+main.container.valign-wrapper.amount {
+    margin-top: 50%;
+}
+
+input.validate.input {
+    color: white;
+}
+#confirm-amount {
+    background-color: white;
+    color: #054175;
+    left: 17%;
+}

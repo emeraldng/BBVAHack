@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <!-- Materialize Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Materialize CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Ingresa Monto | BBVA Bancomer</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#!" class="brand-logo center"><img class="logo" src="https://logos-download.com/wp-content/uploads/2016/07/BBVA_Bancomer_logo.png"></a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons menu">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="sass.html">Sass</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="sass.html">Sass</a></li>
+    </ul>
+
+    <main class="container valign-wrapper amount">
+        <div class="row">
+            <h5 class="center">Monto a pagar:</h5>
+            <form class="col s12">
+                <div class="row">
+                    <div class="input-field col s12 amount-input">
+                        <input id="number" type="number" class="validate input">
+                        <label for="number">$</label>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </main>
+    <button class="btn waves-effect waves-light col s10 center" id="confirm-amount" type="submit" name="action">Confirmar
+    </button>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    <script src="JS/materializeInitializer.js"></script>
+    <script src="JS/navigation.js"></script>
+</body>
+
+</html>
