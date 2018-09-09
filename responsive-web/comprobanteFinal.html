@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,10 +14,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
     <!-- Stylesheet -->
     <link rel="stylesheet" href="CSS/style.css">
-    <title>Ingresa Monto | BBVA Bancomer</title>
+    <title>Confirmar Datos | BBVA Bancomer</title>
 </head>
 
-<body>
+<body class="white-bg">
+
     <!-- Navbar -->
     <nav>
         <div class="nav-wrapper">
@@ -32,23 +34,37 @@
         <li><a href="sass.html">Sass</a></li>
     </ul>
 
-    <main class="container valign-wrapper amount">
-        <div class="row">
-            <h5 class="center">Monto a pagar:</h5>
-            <form class="col s12">
-                <div class="row">
-                    <div class="input-field col s12 amount-input">
-                        <input id="number" type="number" class="validate input">
-                        <label for="number">$</label>
-                    </div>
-                </div>
-            </form>
+    <main>
+        <div class="row center title">
+            <h5 class="col s12">Pago a cuentas QR Payment</h5>
         </div>
+        <!-- Data Table-->
+        <table class="responsive-table center">
+            <thead>
+                <tr>
+                    <th>Comercio</th>
+                    <th>Importe</th>
+                    <th>Fecha</th>
+                    <th>Folio</th>
+                    <th>E-mail</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td id='comercio'></td>
+                    <td id='importe'></td>
+                    <td id='fecha'></td>
+                    <td id='folio'></td>
+                    <td id='e-mail'></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <button class="btn offset-s6" id="to-menu" type="submit">  Volver al Menu  
+        </button>
     </main>
-    <button class="btn waves-effect waves-light col s10 center" id="confirm-amount" type="submit" name="action">Confirmar
-    </button>
 
-
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
     <script src="JS/materializeInitializer.js"></script>
     <script src="JS/navigation.js"></script>

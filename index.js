@@ -1,5 +1,10 @@
 // Llamado a las instancias que se ocuparán-> Llamado a módulos
+<<<<<<< HEAD
 /* express = require('express');
+=======
+const express = require('express');
+const axios = require('axios'); // agrego Mir
+>>>>>>> 8690f757c13325ffd19ed723f66cf0da0537d51a
 const bodyParser = require('body-parser');
 const routes = require('./routes/routes.js');
 const app = express();
@@ -29,4 +34,3 @@ app.get('/', function(req, res) {
     res.sendFile(path.join(__dirname + '/responsive-web/public/login.html'));
 });
 
-app.listen(3000);
