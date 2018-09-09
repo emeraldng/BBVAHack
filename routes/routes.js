@@ -1,7 +1,6 @@
 const faker = require('faker');
 const express = require('express');
 const app = express();
-const path = require('path');
 
 const appRouter = function (app) {
   app.get('/', (req, res) => {
@@ -39,8 +38,6 @@ const appRouter = function (app) {
     }
 
   });
-  app.get('/', (req, res) => {
-    res.sendFile(__dirname + '/../public/login.html');
-  });
+  app.use("rutashtml", express.statics('responsive-web'));
 };
 module.exports = appRouter;
