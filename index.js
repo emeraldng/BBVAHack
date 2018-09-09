@@ -8,7 +8,10 @@ const app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-routes(app);
+// routes(app);
+app.get('/', (req, res) => {
+  res.send('Hola');
+});
 const port = process.env.PORT || 38493;
 // Indoca en qué puerto correra la app y la inicia
 const server = app.listen(port, () => {
