@@ -36,6 +36,6 @@ const appRouter = function (app) {
     }
 
   });
-  app.use('/static', express.static('../public'));
+  app.use('../static', express.static('public'));
 };
 module.exports = appRouter;
