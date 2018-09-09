@@ -56,8 +56,6 @@ if (window.location.href.indexOf('comprobanteFinal') > 0) {
     window.location.assign('/public/first-view.html');
   });
 }
-
-
 // toMenu.addEventListener('click', (e) => {
 //     event.preventDefault(e);
 //     window.location.assign('./login.html');
