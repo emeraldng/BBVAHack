@@ -40,7 +40,7 @@ const appRouter = function (app) {
 
   });
   app.get('/', (req, res) => {
-    res.sendFile(__dirname + '/../public/login.html'));
+    res.sendFile(__dirname + '/../public/login.html');
   });
 };
 module.exports = appRouter;
