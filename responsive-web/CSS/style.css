@@ -178,3 +178,15 @@ p.center {
     margin-left: 25%;
     color:
 }*/
+main.container.valign-wrapper.amount {
+    margin-top: 50%;
+}
+
+input.validate.input {
+    color: white;
+}
+#confirm-amount {
+    background-color: white;
+    color: #054175;
+    left: 17%;
+}
