@@ -30,6 +30,7 @@ nav {
     -webkit-box-shadow: none;
     box-shadow: none;
     background-color: white;
+    width: 100%;
 }
 img.logo {
     width: 70%;
@@ -67,6 +68,7 @@ div.row a.forgot-password {
     font-size: 80%;
     margin-top: -12%;
 }
+
 
 a {
     color:white;
@@ -194,4 +196,27 @@ input.validate.input {
     background-color: white;
     color: #054175;
     left: 17%;
+}
+
+
+#qrbutton {
+    margin-left: 33.3%;
+    
+    background-color: #054175;
+
+}
+.qr-img.col.s10.center{
+    width: 250px;
+    margin-left: 11.3%;
+    margin-top: 10%;
+    padding-bottom: 10%;
+}
+main.container.blue-bg {
+    background-color: #054175;
+    align-content: center;
+}
+
+h5.col.s12.center.scan {
+    background-color: #054175;
+    color: white;
 }
