@@ -27,3 +27,5 @@ const selectPaymentType = () => {
   }
   return paymentType;
 };
+
+
