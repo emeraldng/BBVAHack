@@ -14,7 +14,7 @@ if (window.location.href.indexOf('login') > 0) {
 if (window.location.href.indexOf('first') > 0) {
   QRBtn.addEventListener('click', (e) => {
     event.preventDefault(e);
-    window.location.assign('./qrscan.html');
+    window.location.assign('public/qrscan.html');
   });
 }
 
