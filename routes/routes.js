@@ -36,8 +36,6 @@ const appRouter = function (app) {
     }
 
   });
-  app.get('../1-login', (req, res) => {
-    console.log('Holi');
-  });
+  app.use('/static', express.static('../public'));
 };
 module.exports = appRouter;
