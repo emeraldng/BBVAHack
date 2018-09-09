@@ -190,3 +190,21 @@ input.validate.input {
     color: #054175;
     left: 17%;
 }
+
+
+#qrbutton {
+    margin-left: 33.3%;
+    margin-top: 5%;
+    background-color: #054175;
+
+}
+.qr-img.col.s10.center{
+    width: 250px;
+    margin-left: 11.3%;
+    margin-top: 10%;
+    padding-bottom: 10%;
+}
+main.container.blue-bg {
+    background-color: #054175;
+    align-content: center;
+}
