@@ -36,9 +36,8 @@ const appRouter = function (app) {
     }
 
   });
+  app.get('../1-login', (req, res) => {
+    console.log('Holi');
+  });
 };
-
-app.get('../1-login', (req, res) => {
-  console.log('Holi');
-});
 module.exports = appRouter;
