@@ -29,38 +29,19 @@
 <ul class="sidenav" id="mobile-demo">
     <li><a href="sass.html">Sass</a></li>
 </ul>
-    
-<main class="container blue-bg">
-    <div class="row">
-        <img class="qr-img col s10 center" src="../../imagenes-app/1536357132245.jpg">
+
+<div class="row center title">
+        <h5 class="col s12">Escanea tu código QR</h5>
     </div>
-</main>
-
-<table class="center">
-        <thead>
-            <tr>
-                <th>Empresa</th>
-                <th>Remitente</th>
-                <th>Monto</th>
-            </tr>
-        </thead>
-    
-        <tbody>
-            <tr>
-                <td>Alvin</td>
-                <td>Eclair</td>
-                <td>$0.87</td>
-            </tr>
-        </tbody>
-    </table>
-    
-        <button class="btn waves-effect waves-light col s10 center" id="qrbutton" type="submit" name="action">Continuar
+<section id = "camera" class="row">
+        <video id="player" width="400" heigth="300" autoplay playsinline ></video>
+    </section>    
+    <button class="btn waves-effect waves-light col s10 center" id="qrbutton" type="submit" name="action">Continuar
         </button> 
-    
-
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
     <script src="../JS/materializeInitializer.js"></script>
     <script src="../JS/navigation.js"></script>
+    <script src="../JS/camera.js"></script>
 </body>
 </html>

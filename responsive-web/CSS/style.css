@@ -201,7 +201,7 @@ input.validate.input {
 
 #qrbutton {
     margin-left: 33.3%;
-    margin-top: 5%;
+    
     background-color: #054175;
 
 }
@@ -214,4 +214,9 @@ input.validate.input {
 main.container.blue-bg {
     background-color: #054175;
     align-content: center;
+}
+
+h5.col.s12.center.scan {
+    background-color: #054175;
+    color: white;
 }
