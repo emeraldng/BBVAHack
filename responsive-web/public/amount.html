@@ -12,7 +12,8 @@
     <!-- Materialize CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.1.1/firebaseui.css"/>
     <title>Ingresa Monto | BBVA Bancomer</title>
 </head>
 
@@ -38,20 +39,27 @@
             <form class="col s12">
                 <div class="row">
                     <div class="input-field col s12 amount-input">
-                        <input id="number" type="number" class="validate input">
-                        <label for="number">$</label>
+                        <form>
+                           <input id="number" type="number" class="validate input">
+                           <label for="number">$</label>
+                            <button class="btn waves-effect waves-light col s10 center" id="confirm-amount" type="submit" onclick="paymentGenerator()" name="action">Confirmar</button>
+                        </form>
                     </div>
                 </div>
             </form>
         </div>
     </main>
-    <button class="btn waves-effect waves-light col s10 center" id="confirm-amount" type="submit" name="action">Confirmar
-    </button>
+    
 
-
+    
+    <!-- <script src="../JS/authentications.js"></script> -->
+    
+    <script src="../JS/navigation.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
-    <script src="JS/materializeInitializer.js"></script>
-    <script src="JS/navigation.js"></script>
+    <script src="../JS/materializeInitializer.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.4.2/firebase.js"></script>
+    <script src="../JS/crud.js"></script>
+    
 </body>
 
 </html>

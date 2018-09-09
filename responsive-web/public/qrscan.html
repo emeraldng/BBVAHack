@@ -1,22 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Escanea Código QR | BBVA Bancomer</title>
-    <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/2.5.1/firebaseui.css"/> <!--CDR de firebase-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Materialize Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Materialize CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="../CSS/monto-pagos.css">
+  <title>Genador de QR para Negocios</title>
 </head>
+
 <body>
-    <button id="qrbutton">dkfljgdlk</button>
-    <script src="https://www.gstatic.com/firebasejs/5.4.2/firebase.js"></script>
-<<<<<<< HEAD:responsive-web/public/qrscan.html
-    <script src="../JS/authentications.js"></script>
-    <script src="../JS/crud.js"></script>
-=======
-    <script src="./JS/authentications.js"></script>
-    <script src="JS/navigation.js"></script>
-    <script src="./JS/crud.js"></script>
->>>>>>> 8690f757c13325ffd19ed723f66cf0da0537d51a:responsive-web/qrscan.html
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo center">
+          <img id="logo" src="https://logos-download.com/wp-content/uploads/2016/07/BBVA_Bancomer_logo.png" alt="">
+        </a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse">
+          <i class="material-icons icon-black">menu</i>
+        </a>
+
+      </div>
+    </nav>
+  </div>
+
+  <div class="wrapper2">
+    <div class="container2 center col s12">
+      <video id="player" controls autoplay  width=320 height=240></video>
+      <button id="capture">Capturar </button>
+      <canvas id="snapshot" width=160 height=120></canvas>
+    </div>
+  </div>
+
+  <div class="wrapper3">
+    <div class="container3 center col s12">
+      <p>BBVA PAYMENTS</p>
+      <p>Miscelánea Don Juan</p>
+      <p>Cuenta  **597985</p>
+    </div>
+  </div>
+
+
+
+   
+
+  <script src="../JS/prueba-crud.js"></script>
+  <script src="../JS/materializeInitializer.js"></script>
 </body>
+
 </html>

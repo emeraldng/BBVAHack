@@ -19,7 +19,7 @@ if (window.location.href.indexOf('first') > 0) {
 }
 
 if (window.location.href.indexOf('scan') > 0) {
-  document.getElementById('qrbutton').addEventListener('click', (e) => {
+  document.getElementById('capture').addEventListener('click', (e) => {
     event.preventDefault(e);
     window.location.assign('./amount.html');
   });
