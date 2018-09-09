@@ -171,6 +171,7 @@ button.btn.waves-effect.waves-light.col.s10.center#confirm-payment, #to-menu {
 }
 
 #to-menu {
+    margin-top: 20%;
     background-color: #054175;
 }
 
