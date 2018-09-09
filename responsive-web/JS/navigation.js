@@ -21,7 +21,7 @@ if (window.location.href.indexOf('first') > 0) {
 if (window.location.href.indexOf('scan') > 0) {
   document.getElementById('qrbutton').addEventListener('click', (e) => {
     event.preventDefault(e);
-    window.location.assign('./amount.html');
+    window.location.assign('../amount.html');
   });
 }
 
@@ -38,7 +38,6 @@ if (window.location.href.indexOf('payment') > 0) {
     // alert
 
     swal({
-    //   className: 'red-bg',
       title: '¡Felicidades!',
       text: 'Tu pago se realizo con éxito',
       icon: 'success',
@@ -53,7 +52,7 @@ if (window.location.href.indexOf('payment') > 0) {
 if (window.location.href.indexOf('comprobanteFinal') > 0) {
   finalizeTransaction.addEventListener('click', (e) => {
     event.preventDefault(e);
-    window.location.assign('./first-view.html');
+    window.location.assign('public/first-view.html');
   });
 }
 // toMenu.addEventListener('click', (e) => {
