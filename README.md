@@ -20,9 +20,9 @@ Las siglas QR provienen de **“Quick Response”**, y significan literalmente �
 
 [ ] Escaneando el código, cualquier persona puede acceder a tu página web, a los datos de tu compañía o a alguna promoción especial de tus productos. 
 
-[fuente de consulta web node 02/12/2011]()
+[fuente de consulta web node 02/12/2011]
 
-<https://www.webnode.es/blog/2011/12/02/codigos-qr/>
+(https://www.webnode.es/blog/2011/12/02/codigos-qr/)
 
 
 ## Los pagos móviles crecen como vía de inclusión social en Latam
@@ -46,9 +46,9 @@ dice Fondacaro.
 
 ![Marcelo](imagenes/MarceloFondacaro.jpg)
 
- [fuente de consulta Forbes agosto 17, 2017 ]()
+ [fuente de consulta Forbes agosto 17, 2017 ]
 
- <https://www.forbes.com.mx/los-pagos-moviles-crecen-como-via-de-inclusion-social-en-latam/>
+(https://www.forbes.com.mx/los-pagos-moviles-crecen-como-via-de-inclusion-social-en-latam/)
 
 # Sólo 3 de cada 10 negocios en México aceptan pago con tarjeta
 
@@ -56,7 +56,7 @@ dice Fondacaro.
 El estudio elaborado por el Instituto Nacional de Estadística y Geografía (INEGI), precisó que 32.5% de las unidades económicas mexicanas cuentan con un sistema de cobro con tarjeta.
 
 
- [fuente de consulta Forbes agosto 22, 2017]()<https://www.forbes.com.mx/solo-3-de-cada-10-negocios-en-mexico-aceptan-pago-con-tarjeta/>
+ [fuente de consulta Forbes agosto 22, 2017](https://www.forbes.com.mx/solo-3-de-cada-10-negocios-en-mexico-aceptan-pago-con-tarjeta)
 
  # Bancomer ofrece una Solución 
 
@@ -66,8 +66,7 @@ El estudio elaborado por el Instituto Nacional de Estadística y Geografía (INE
 Según las cifras más recientes del Banco de México, en el país hay 23.4 millones de tarjetas de crédito emitidas para personas físicas y son uno de los medios de pago preferidos por los consumidores.
 
 
-Fuente de consulta El Financiero 07/02/2017
-<http://www.elfinanciero.com.mx/pyme/evita-que-tu-pyme-pierda-clientes-acepta-pagos-con-tarjeta>
+[Fuente de consulta El Financiero 07/02/2017](http://www.elfinanciero.com.mx/pyme/evita-que-tu-pyme-pierda-clientes-acepta-pagos-con-tarjeta)
 
 Tomando en cuenta la información anterior hemos creado una alternativa para las microempresas que aún no estan asociadas a la Banca.
 
@@ -113,16 +112,12 @@ _La innovación se encuentra fuertemente ligada a este proceso de transformació
 
 
 
- Fuente de consulta Condusef 8 octubre 2012
+[Fuente de consulta Condusef 8 octubre 2012](https://www.condusef.gob.mx/Revista/index.php/usuario-inteligente/servicios-financieros/252-dale-direccion-a-tu-negocio)
 
- <https://www.condusef.gob.mx/Revista/index.php/usuario-inteligente/servicios-financieros/252-dale-direccion-a-tu-negocio>
-
- Fuente de consulta BBVA
-
- <https://www.bbva.com/es/mexico-mas-competitivo-banca-digital-estados-unidos-brasil/>
+[Fuente de consulta BBVA](https://www.bbva.com/es/mexico-mas-competitivo-banca-digital-estados-unidos-brasil/)
 
 
- <https://www.bbva.com/es/internet-banca-mexico/>
+(https://www.bbva.com/es/internet-banca-mexico/)
 
 
  - Todo este proyecto fue realizado por :
