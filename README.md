@@ -119,7 +119,6 @@ _La innovación se encuentra fuertemente ligada a este proceso de transformació
 
  Fuente de consulta BBVA
 
-
  <https://www.bbva.com/es/mexico-mas-competitivo-banca-digital-estados-unidos-brasil/>
 
 
@@ -127,14 +126,14 @@ _La innovación se encuentra fuertemente ligada a este proceso de transformació
 
 
  - Todo este proyecto fue realizado por :
- - Yocelin Garcia Romero encargada del aréa :node.js y express.
+ - Yocelin Garcia Romero encargada de: NodeJS y Express.
 
- - Florencia Silva Olvera encargada del aréa:Maquetado de vistas.
+ - Florencia Silva Olivera encargada de: Maquetado de vistas.
 
- - Diana Esmeralda  Nava Garcia encargada de :Firebase y maquetado de vistas
- - Mirian Ivonne Garcia Hernandez encargada de: codigo QR
- - Jazmin Tania Reyes Guzman encargada de el aréa de :User Experience.
- - Mike Nieva encargado de el areá de :Scrum Master
-
-
+ - Diana Esmeralda  Nava Garcia encargada de: Firebase
  
+ - Mirian Ivonne Garcia Hernandez encargada de: Código QR y Maquetado de Vista
+ 
+ - Jazmin Tania Reyes Guzman encargada de el area de: User Experience.
+ 
+ - Mike Nieva encargado de el area de: Scrum Master
