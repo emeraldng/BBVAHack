@@ -7,21 +7,21 @@ const finalizeTransaction = document.getElementById('to-menu');
 if (window.location.href.indexOf('login') > 0) {
   connectBtn.addEventListener('click', (e) => {
     event.preventDefault(e);
-    window.location.assign('../responsive-web/public/first-view.html');
+    window.location.assign('../public/first-view.html');
   });
 }
 
 if (window.location.href.indexOf('first') > 0) {
   QRBtn.addEventListener('click', (e) => {
     event.preventDefault(e);
-    window.location.assign('../responsive-web/public/qrscan.html');
+    window.location.assign('../public/qrscan.html');
   });
 }
 
 if (window.location.href.indexOf('scan') > 0) {
   document.getElementById('qrbutton').addEventListener('click', (e) => {
     event.preventDefault(e);
-    window.location.assign('../responsive-web/public/amount.html');
+    window.location.assign('../public/amount.html');
   });
 }
 
@@ -29,7 +29,7 @@ if (window.location.href.indexOf('scan') > 0) {
 if (window.location.href.indexOf('amount') > 0) {
   confirmAmount.addEventListener('click', (e) => {
     event.preventDefault(e);
-    window.location.assign('../responsive-web/public/preview-payment.html');
+    window.location.assign('../public/preview-payment.html');
   });
 }
 
@@ -45,7 +45,7 @@ if (window.location.href.indexOf('payment') > 0) {
       button: 'Continuar',
     })
     .then((value) => {
-        location.href = ('../responsive-web/public/comprobanteFinal.html');
+        location.href = ('../public/comprobanteFinal.html');
       });
   });
 }
@@ -53,7 +53,7 @@ if (window.location.href.indexOf('payment') > 0) {
 if (window.location.href.indexOf('comprobanteFinal') > 0) {
   finalizeTransaction.addEventListener('click', (e) => {
     event.preventDefault(e);
-    window.location.assign('../responsive-web/public/first-view.html');
+    window.location.assign('../public/first-view.html');
   });
 }
 
