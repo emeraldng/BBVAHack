@@ -38,6 +38,6 @@ const appRouter = function (app) {
     }
 
   });
-  app.use("rutashtml", express.statics('responsive-web'));
+  app.use("rutashtml", express.static('responsive-web'));
 };
 module.exports = appRouter;
