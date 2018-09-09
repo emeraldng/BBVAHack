@@ -12,13 +12,13 @@
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
      <!-- Stylesheet -->
      <link rel="stylesheet" href="CSS/style.css">
-    <title>Document</title>
+    <title>Menu Principal | BBVA Bancomer</title>
 </head>
-<body class="first-view"> 
+<body class="white-bg"> 
 <!-- Navbar -->
 <nav>
     <div class="nav-wrapper" >
-        <a href="#!" class="brand-logo center"><img src="https://logos-download.com/wp-content/uploads/2016/07/BBVA_Bancomer_logo.png"></a>
+        <a href="#!" class="brand-logo center"><img class="logo" src="https://logos-download.com/wp-content/uploads/2016/07/BBVA_Bancomer_logo.png"></a>
         <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons menu">menu</i></a>
         <ul class="right hide-on-med-and-down">
         <li><a href="sass.html">Sass</a></li>
@@ -31,7 +31,7 @@
 </ul>
 
 <!-- Loan Promotion -->
-<div class="container">
+<div class="cont">
     <div class="row">
         <span class="loan-promotion col s8 center">
             <i class="fas fa-money-check-alt"></i> Préstamos hasta <span>50.000</span>
@@ -39,7 +39,7 @@
     </div>
 </div>
 
-<main class="container">
+<main class="container" id="menu">
     <div class="row">
         <div class="col s6">
             <button class="btn waves-effect waves-light col s12 center" id="accounts" type="button" name="action"><i class="fas fa-chart-pie left"></i>Mis Cuentas
@@ -47,6 +47,8 @@
             <button class="btn waves-effect waves-light col s12 center" id="transfer" type="button" name="action"><i class="fas fa-exchange-alt left"></i>Transferir
             </button> 
             <button class="btn waves-effect waves-light col s12 center" id="pay" type="button" name="action"><i class="far fa-credit-card left"></i>Pagar
+            </button> 
+            <button class="btn waves-effect waves-light col s12 center" id="qr" type="button" name="action"><i class="fas fa-qrcode left"></i>Pagar con QR
             </button> 
         </div>
         <div class="col s6">
@@ -56,10 +58,14 @@
             </button> 
             <button class="btn waves-effect waves-light col s12 center" id="buy" type="button" name="action"><i class="fas fa-shopping-cart left"></i>Comprar
             </button> 
+            <button class="btn waves-effect waves-light col s12 center" id="consult" type="button" name="action"><i class="far fa-list-alt left"></i>Consultar
+            </button> 
         </div>
     </div>
 </main>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
 <script src="JS/materializeInitializer.js"></script>
+<script src="JS/navigation.js"></script>
 </body>
 </html>
