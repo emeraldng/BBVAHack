@@ -10,5 +10,4 @@ const inizializing = () => {
     messagingSenderId: '533948690919',
   };
   firebase.initializeApp(config);
-  return firebase.firestore();
 };
